@@ -1,5 +1,5 @@
 # hackerEarth-Hackathon
-our 1st hackathon
+
 
 Welcome to our tech blog website on Github! Here, you'll find the latest news and updates in the world of technology, as well as informative articles and tutorials to help you improve your skills as a developer.
 
