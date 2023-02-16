@@ -1,17 +1,19 @@
 const mysql = require('mysql')
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'dbuser',
-  password: 's3kreee7',
-  database: 'my_db'
+  host: 'sql12.freesqldatabase.com',
+  user: 'sql12598590',
+  password: 'IJmtCvjQnp',
+  database: 'sql12598590' ,
+  port : 3306
 })
 
-connection.connect()
+connection.connect("jdbc:mysql://sql6.freesqldatabase.com:3306/sql12598590")
 
-connection.query('SELECT 1 + 1 AS solution', (err, rows, fields) => {
-  if (err) throw err
+connection.query('', (err, rows, fields) => {
+  if (err) console.log(err);
+  else {
 
-  console.log('The solution is: ', rows[0].solution)
+  }
 })
 
 connection.end()
